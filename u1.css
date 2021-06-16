@@ -1,0 +1,91 @@
+
+body{
+    margin-right:
+     0px;
+    
+}
+.inp-group{
+   
+    display: inline;
+    text-align: center;
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+   
+}
+
+form{
+        
+    border: solid 2px red;
+    border-radius: 5%;
+    font-size: small;
+    background-color: rgb(139, 108, 108);
+    
+}
+
+.my-header{
+    background-color: blue;
+    height: 50px;
+    padding:5px;
+    color:white;
+    border: solid 1px black;
+}
+
+input{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 17px;
+}
+
+.flex-outer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: blue;
+}
+
+ .flex-outer li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flex-outer > li > label{
+    flex: 1 0 100px;
+    display: 1 0 220px;
+    max-width: 100px;
+} 
+
+
+
+@media screen and (max-width: 600px) {
+     form{
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    }
+    .flex-outer{
+        display: flex;
+        align-items: start;
+    } 
+
+    .flex-outer li{
+        display: flex;
+        justify-content: left;
+       
+        justify-items:left;
+    }
+    label{
+        display: block;
+    }
+    
+     
+    
+}
+
